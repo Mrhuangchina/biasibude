@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A3F99A0C1E0E3C3B00AFA622 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F99A0B1E0E3C3B00AFA622 /* main.m */; };
-		A3F99A0F1E0E3C3B00AFA622 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F99A0E1E0E3C3B00AFA622 /* AppDelegate.m */; };
-		A3F99A121E0E3C3B00AFA622 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F99A111E0E3C3B00AFA622 /* ViewController.m */; };
-		A3F99A151E0E3C3B00AFA622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F99A131E0E3C3B00AFA622 /* Main.storyboard */; };
-		A3F99A171E0E3C3B00AFA622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F99A161E0E3C3B00AFA622 /* Assets.xcassets */; };
-		A3F99A1A1E0E3C3B00AFA622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F99A181E0E3C3B00AFA622 /* LaunchScreen.storyboard */; };
+		A327AE031E193D1300E64D81 /* UIView+HJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A327ADE71E193D1300E64D81 /* UIView+HJCategory.m */; };
+		A327AE041E193D1300E64D81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A327ADFA1E193D1300E64D81 /* AppDelegate.m */; };
+		A327AE051E193D1300E64D81 /* HJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327ADFD1E193D1300E64D81 /* HJTabBarController.m */; };
+		A327AE061E193D1300E64D81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A327ADFE1E193D1300E64D81 /* main.m */; };
+		A327AE071E193D1300E64D81 /* HJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A327AE021E193D1300E64D81 /* HJTabBar.m */; };
+		A327AE0A1E193E2D00E64D81 /* HJEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327AE091E193E2D00E64D81 /* HJEssenceController.m */; };
+		A327AE0D1E193E4C00E64D81 /* HJNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327AE0C1E193E4C00E64D81 /* HJNewController.m */; };
+		A327AE101E193E6500E64D81 /* HJFollowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327AE0F1E193E6500E64D81 /* HJFollowController.m */; };
+		A327AE131E193E7D00E64D81 /* HJMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327AE121E193E7D00E64D81 /* HJMeController.m */; };
+		A327AE161E1A401300E64D81 /* UIBarButtonItem+HJBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A327AE151E1A401300E64D81 /* UIBarButtonItem+HJBarButtonItem.m */; };
+		A327AE191E1A5C4000E64D81 /* HJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327AE181E1A5C4000E64D81 /* HJNavigationController.m */; };
+		A327AE1C1E1A64D700E64D81 /* HJsettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327AE1B1E1A64D700E64D81 /* HJsettingViewController.m */; };
+		A327AE1F1E1A662400E64D81 /* HJtestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327AE1E1E1A662400E64D81 /* HJtestViewController.m */; };
+		A327AE211E1BD0C600E64D81 /* HJFollowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A327AE201E1BD0C600E64D81 /* HJFollowController.xib */; };
+		A327AE251E1BDAD500E64D81 /* HJLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327AE231E1BDAD500E64D81 /* HJLoginRegisterViewController.m */; };
+		A327AE261E1BDAD500E64D81 /* HJLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A327AE241E1BDAD500E64D81 /* HJLoginRegisterViewController.xib */; };
+		A327AE291E1CCD2700E64D81 /* HJLoginReButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A327AE281E1CCD2700E64D81 /* HJLoginReButton.m */; };
+		A327AE2C1E1F525600E64D81 /* HJLoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A327AE2B1E1F525600E64D81 /* HJLoginTextField.m */; };
+		A327AE2F1E23B62700E64D81 /* UITextField+HJTextFieldCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A327AE2E1E23B62700E64D81 /* UITextField+HJTextFieldCategory.m */; };
+		A3371E0E1E28E4C40005DB5D /* HJExtrenMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = A3371E0D1E28E4C40005DB5D /* HJExtrenMargin.m */; };
+		A3371E111E28E5C60005DB5D /* HJMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3371E101E28E5C60005DB5D /* HJMeCell.m */; };
+		A3B5BCEA1EAA012600D0DB6F /* HJMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCE91EAA012600D0DB6F /* HJMeFooterView.m */; };
+		A3B5BCED1EADA29000D0DB6F /* HJSquareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCEC1EADA29000D0DB6F /* HJSquareModel.m */; };
+		A3B5BCF01EB9DCD500D0DB6F /* HJSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCEF1EB9DCD500D0DB6F /* HJSquareButton.m */; };
+		A3B5BCF41EC0909800D0DB6F /* HJMEWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCF21EC0909800D0DB6F /* HJMEWebView.m */; };
+		A3B5BCF51EC0909800D0DB6F /* HJMEWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3B5BCF31EC0909800D0DB6F /* HJMEWebView.xib */; };
 		A3F99A251E0E3C3B00AFA622 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F99A241E0E3C3B00AFA622 /* _____Tests.m */; };
 		A3F99A301E0E3C3B00AFA622 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F99A2F1E0E3C3B00AFA622 /* _____UITests.m */; };
+		A3F99A3E1E0F79A800AFA622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F99A3D1E0F79A800AFA622 /* Assets.xcassets */; };
+		E210D55CCD7072635072649B /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F013DB5DD89C5351236463B4 /* libPods-百思不得姐.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +57,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A3F99A071E0E3C3B00AFA622 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3F99A0B1E0E3C3B00AFA622 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A3F99A0D1E0E3C3B00AFA622 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A3F99A0E1E0E3C3B00AFA622 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A3F99A101E0E3C3B00AFA622 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A3F99A111E0E3C3B00AFA622 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A3F99A141E0E3C3B00AFA622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A3F99A161E0E3C3B00AFA622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A3F99A191E0E3C3B00AFA622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39D0FE17BD35FC78F18F5795 /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
+		A2F246F02BAD1FE681A29156 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
+		A327ADE61E193D1300E64D81 /* UIView+HJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HJCategory.h"; sourceTree = "<group>"; };
+		A327ADE71E193D1300E64D81 /* UIView+HJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HJCategory.m"; sourceTree = "<group>"; };
+		A327ADF91E193D1300E64D81 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A327ADFA1E193D1300E64D81 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A327ADFC1E193D1300E64D81 /* HJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTabBarController.h; sourceTree = "<group>"; };
+		A327ADFD1E193D1300E64D81 /* HJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTabBarController.m; sourceTree = "<group>"; };
+		A327ADFE1E193D1300E64D81 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A327ADFF1E193D1300E64D81 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A327AE011E193D1300E64D81 /* HJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTabBar.h; sourceTree = "<group>"; };
+		A327AE021E193D1300E64D81 /* HJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTabBar.m; sourceTree = "<group>"; };
+		A327AE081E193E2D00E64D81 /* HJEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJEssenceController.h; sourceTree = "<group>"; };
+		A327AE091E193E2D00E64D81 /* HJEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJEssenceController.m; sourceTree = "<group>"; };
+		A327AE0B1E193E4C00E64D81 /* HJNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNewController.h; sourceTree = "<group>"; };
+		A327AE0C1E193E4C00E64D81 /* HJNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNewController.m; sourceTree = "<group>"; };
+		A327AE0E1E193E6500E64D81 /* HJFollowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJFollowController.h; sourceTree = "<group>"; };
+		A327AE0F1E193E6500E64D81 /* HJFollowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJFollowController.m; sourceTree = "<group>"; };
+		A327AE111E193E7D00E64D81 /* HJMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMeController.h; sourceTree = "<group>"; };
+		A327AE121E193E7D00E64D81 /* HJMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMeController.m; sourceTree = "<group>"; };
+		A327AE141E1A401300E64D81 /* UIBarButtonItem+HJBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HJBarButtonItem.h"; sourceTree = "<group>"; };
+		A327AE151E1A401300E64D81 /* UIBarButtonItem+HJBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HJBarButtonItem.m"; sourceTree = "<group>"; };
+		A327AE171E1A5C4000E64D81 /* HJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNavigationController.h; sourceTree = "<group>"; };
+		A327AE181E1A5C4000E64D81 /* HJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNavigationController.m; sourceTree = "<group>"; };
+		A327AE1A1E1A64D700E64D81 /* HJsettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJsettingViewController.h; sourceTree = "<group>"; };
+		A327AE1B1E1A64D700E64D81 /* HJsettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJsettingViewController.m; sourceTree = "<group>"; };
+		A327AE1D1E1A662400E64D81 /* HJtestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJtestViewController.h; sourceTree = "<group>"; };
+		A327AE1E1E1A662400E64D81 /* HJtestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJtestViewController.m; sourceTree = "<group>"; };
+		A327AE201E1BD0C600E64D81 /* HJFollowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJFollowController.xib; sourceTree = "<group>"; };
+		A327AE221E1BDAD500E64D81 /* HJLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJLoginRegisterViewController.h; sourceTree = "<group>"; };
+		A327AE231E1BDAD500E64D81 /* HJLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJLoginRegisterViewController.m; sourceTree = "<group>"; };
+		A327AE241E1BDAD500E64D81 /* HJLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		A327AE271E1CCD2700E64D81 /* HJLoginReButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJLoginReButton.h; sourceTree = "<group>"; };
+		A327AE281E1CCD2700E64D81 /* HJLoginReButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJLoginReButton.m; sourceTree = "<group>"; };
+		A327AE2A1E1F525600E64D81 /* HJLoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJLoginTextField.h; sourceTree = "<group>"; };
+		A327AE2B1E1F525600E64D81 /* HJLoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJLoginTextField.m; sourceTree = "<group>"; };
+		A327AE2D1E23B62700E64D81 /* UITextField+HJTextFieldCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HJTextFieldCategory.h"; sourceTree = "<group>"; };
+		A327AE2E1E23B62700E64D81 /* UITextField+HJTextFieldCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HJTextFieldCategory.m"; sourceTree = "<group>"; };
+		A3371E0C1E28E4C40005DB5D /* HJExtrenMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJExtrenMargin.h; sourceTree = "<group>"; };
+		A3371E0D1E28E4C40005DB5D /* HJExtrenMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJExtrenMargin.m; sourceTree = "<group>"; };
+		A3371E0F1E28E5C60005DB5D /* HJMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMeCell.h; sourceTree = "<group>"; };
+		A3371E101E28E5C60005DB5D /* HJMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMeCell.m; sourceTree = "<group>"; };
+		A3B5BCE81EAA012600D0DB6F /* HJMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMeFooterView.h; sourceTree = "<group>"; };
+		A3B5BCE91EAA012600D0DB6F /* HJMeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMeFooterView.m; sourceTree = "<group>"; };
+		A3B5BCEB1EADA29000D0DB6F /* HJSquareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSquareModel.h; sourceTree = "<group>"; };
+		A3B5BCEC1EADA29000D0DB6F /* HJSquareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSquareModel.m; sourceTree = "<group>"; };
+		A3B5BCEE1EB9DCD500D0DB6F /* HJSquareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSquareButton.h; sourceTree = "<group>"; };
+		A3B5BCEF1EB9DCD500D0DB6F /* HJSquareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSquareButton.m; sourceTree = "<group>"; };
+		A3B5BCF11EC0909800D0DB6F /* HJMEWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMEWebView.h; sourceTree = "<group>"; };
+		A3B5BCF21EC0909800D0DB6F /* HJMEWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMEWebView.m; sourceTree = "<group>"; };
+		A3B5BCF31EC0909800D0DB6F /* HJMEWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJMEWebView.xib; sourceTree = "<group>"; };
+		A3F99A071E0E3C3B00AFA622 /* baisibudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baisibudejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F99A1B1E0E3C3B00AFA622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3F99A201E0E3C3B00AFA622 /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F99A241E0E3C3B00AFA622 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
@@ -51,6 +116,8 @@
 		A3F99A2B1E0E3C3B00AFA622 /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F99A2F1E0E3C3B00AFA622 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		A3F99A311E0E3C3B00AFA622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F99A3D1E0F79A800AFA622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Mrhuang/Desktop/百思不得姐/百思不得姐/Assets.xcassets"; sourceTree = "<group>"; };
+		F013DB5DD89C5351236463B4 /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E210D55CCD7072635072649B /* libPods-百思不得姐.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +146,223 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A327ADE41E193D1300E64D81 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A327ADE81E193D1300E64D81 /* Essence-精华 */,
+				A327ADF41E193D1300E64D81 /* New-新帖 */,
+				A327ADEC1E193D1300E64D81 /* Follow-关注 */,
+				A327ADF01E193D1300E64D81 /* Me-我 */,
+				A327ADE51E193D1300E64D81 /* Category */,
+				A327ADF81E193D1300E64D81 /* Other-其他 */,
+			);
+			name = Classes;
+			path = "../../../../Mrhuang/Desktop/百思不得姐/百思不得姐/Classes";
+			sourceTree = "<group>";
+		};
+		A327ADE51E193D1300E64D81 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A327ADE61E193D1300E64D81 /* UIView+HJCategory.h */,
+				A327ADE71E193D1300E64D81 /* UIView+HJCategory.m */,
+				A327AE141E1A401300E64D81 /* UIBarButtonItem+HJBarButtonItem.h */,
+				A327AE151E1A401300E64D81 /* UIBarButtonItem+HJBarButtonItem.m */,
+				A327AE2D1E23B62700E64D81 /* UITextField+HJTextFieldCategory.h */,
+				A327AE2E1E23B62700E64D81 /* UITextField+HJTextFieldCategory.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A327ADE81E193D1300E64D81 /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				A327ADE91E193D1300E64D81 /* Controller */,
+				A327ADEA1E193D1300E64D81 /* Model */,
+				A327ADEB1E193D1300E64D81 /* View */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		A327ADE91E193D1300E64D81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A327AE081E193E2D00E64D81 /* HJEssenceController.h */,
+				A327AE091E193E2D00E64D81 /* HJEssenceController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A327ADEA1E193D1300E64D81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A327ADEB1E193D1300E64D81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A327ADEC1E193D1300E64D81 /* Follow-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				A327ADED1E193D1300E64D81 /* Controller */,
+				A327ADEE1E193D1300E64D81 /* Model */,
+				A327ADEF1E193D1300E64D81 /* View */,
+			);
+			path = "Follow-关注";
+			sourceTree = "<group>";
+		};
+		A327ADED1E193D1300E64D81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A327AE0E1E193E6500E64D81 /* HJFollowController.h */,
+				A327AE0F1E193E6500E64D81 /* HJFollowController.m */,
+				A327AE201E1BD0C600E64D81 /* HJFollowController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A327ADEE1E193D1300E64D81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A327ADEF1E193D1300E64D81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A327ADF01E193D1300E64D81 /* Me-我 */ = {
+			isa = PBXGroup;
+			children = (
+				A327ADF11E193D1300E64D81 /* Controller */,
+				A327ADF21E193D1300E64D81 /* Model */,
+				A327ADF31E193D1300E64D81 /* View */,
+			);
+			path = "Me-我";
+			sourceTree = "<group>";
+		};
+		A327ADF11E193D1300E64D81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A327AE111E193E7D00E64D81 /* HJMeController.h */,
+				A327AE121E193E7D00E64D81 /* HJMeController.m */,
+				A327AE1A1E1A64D700E64D81 /* HJsettingViewController.h */,
+				A327AE1B1E1A64D700E64D81 /* HJsettingViewController.m */,
+				A3B5BCF11EC0909800D0DB6F /* HJMEWebView.h */,
+				A3B5BCF21EC0909800D0DB6F /* HJMEWebView.m */,
+				A3B5BCF31EC0909800D0DB6F /* HJMEWebView.xib */,
+				A327AE1D1E1A662400E64D81 /* HJtestViewController.h */,
+				A327AE1E1E1A662400E64D81 /* HJtestViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A327ADF21E193D1300E64D81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3B5BCEB1EADA29000D0DB6F /* HJSquareModel.h */,
+				A3B5BCEC1EADA29000D0DB6F /* HJSquareModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A327ADF31E193D1300E64D81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3371E0F1E28E5C60005DB5D /* HJMeCell.h */,
+				A3371E101E28E5C60005DB5D /* HJMeCell.m */,
+				A3B5BCE81EAA012600D0DB6F /* HJMeFooterView.h */,
+				A3B5BCE91EAA012600D0DB6F /* HJMeFooterView.m */,
+				A3B5BCEE1EB9DCD500D0DB6F /* HJSquareButton.h */,
+				A3B5BCEF1EB9DCD500D0DB6F /* HJSquareButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A327ADF41E193D1300E64D81 /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				A327ADF51E193D1300E64D81 /* Controller */,
+				A327ADF61E193D1300E64D81 /* Model */,
+				A327ADF71E193D1300E64D81 /* View */,
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		A327ADF51E193D1300E64D81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A327AE0B1E193E4C00E64D81 /* HJNewController.h */,
+				A327AE0C1E193E4C00E64D81 /* HJNewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A327ADF61E193D1300E64D81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A327ADF71E193D1300E64D81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A327ADF81E193D1300E64D81 /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				A327ADFB1E193D1300E64D81 /* Controller */,
+				A327AE001E193D1300E64D81 /* View */,
+				A327ADF91E193D1300E64D81 /* AppDelegate.h */,
+				A327ADFA1E193D1300E64D81 /* AppDelegate.m */,
+				A327ADFE1E193D1300E64D81 /* main.m */,
+				A327ADFF1E193D1300E64D81 /* PrefixHeader.pch */,
+				A3371E0C1E28E4C40005DB5D /* HJExtrenMargin.h */,
+				A3371E0D1E28E4C40005DB5D /* HJExtrenMargin.m */,
+			);
+			path = "Other-其他";
+			sourceTree = "<group>";
+		};
+		A327ADFB1E193D1300E64D81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A327ADFC1E193D1300E64D81 /* HJTabBarController.h */,
+				A327ADFD1E193D1300E64D81 /* HJTabBarController.m */,
+				A327AE171E1A5C4000E64D81 /* HJNavigationController.h */,
+				A327AE181E1A5C4000E64D81 /* HJNavigationController.m */,
+				A327AE221E1BDAD500E64D81 /* HJLoginRegisterViewController.h */,
+				A327AE231E1BDAD500E64D81 /* HJLoginRegisterViewController.m */,
+				A327AE241E1BDAD500E64D81 /* HJLoginRegisterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A327AE001E193D1300E64D81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A327AE011E193D1300E64D81 /* HJTabBar.h */,
+				A327AE021E193D1300E64D81 /* HJTabBar.m */,
+				A327AE271E1CCD2700E64D81 /* HJLoginReButton.h */,
+				A327AE281E1CCD2700E64D81 /* HJLoginReButton.m */,
+				A327AE2A1E1F525600E64D81 /* HJLoginTextField.h */,
+				A327AE2B1E1F525600E64D81 /* HJLoginTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A3F999FE1E0E3C3B00AFA622 = {
 			isa = PBXGroup;
 			children = (
@@ -85,13 +370,15 @@
 				A3F99A231E0E3C3B00AFA622 /* 百思不得姐Tests */,
 				A3F99A2E1E0E3C3B00AFA622 /* 百思不得姐UITests */,
 				A3F99A081E0E3C3B00AFA622 /* Products */,
+				F5E8CA320834157D293A25FC /* Pods */,
+				DCF1A3B07FEC674CF0B34041 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A3F99A081E0E3C3B00AFA622 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3F99A071E0E3C3B00AFA622 /* 百思不得姐.app */,
+				A3F99A071E0E3C3B00AFA622 /* baisibudejie.app */,
 				A3F99A201E0E3C3B00AFA622 /* 百思不得姐Tests.xctest */,
 				A3F99A2B1E0E3C3B00AFA622 /* 百思不得姐UITests.xctest */,
 			);
@@ -101,14 +388,7 @@
 		A3F99A091E0E3C3B00AFA622 /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
-				A3F99A0D1E0E3C3B00AFA622 /* AppDelegate.h */,
-				A3F99A0E1E0E3C3B00AFA622 /* AppDelegate.m */,
-				A3F99A101E0E3C3B00AFA622 /* ViewController.h */,
-				A3F99A111E0E3C3B00AFA622 /* ViewController.m */,
-				A3F99A131E0E3C3B00AFA622 /* Main.storyboard */,
-				A3F99A161E0E3C3B00AFA622 /* Assets.xcassets */,
-				A3F99A181E0E3C3B00AFA622 /* LaunchScreen.storyboard */,
-				A3F99A1B1E0E3C3B00AFA622 /* Info.plist */,
+				A327ADE41E193D1300E64D81 /* Classes */,
 				A3F99A0A1E0E3C3B00AFA622 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -117,7 +397,8 @@
 		A3F99A0A1E0E3C3B00AFA622 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A3F99A0B1E0E3C3B00AFA622 /* main.m */,
+				A3F99A3D1E0F79A800AFA622 /* Assets.xcassets */,
+				A3F99A1B1E0E3C3B00AFA622 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +421,23 @@
 			path = "百思不得姐UITests";
 			sourceTree = "<group>";
 		};
+		DCF1A3B07FEC674CF0B34041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F013DB5DD89C5351236463B4 /* libPods-百思不得姐.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5E8CA320834157D293A25FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39D0FE17BD35FC78F18F5795 /* Pods-百思不得姐.debug.xcconfig */,
+				A2F246F02BAD1FE681A29156 /* Pods-百思不得姐.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +445,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3F99A341E0E3C3B00AFA622 /* Build configuration list for PBXNativeTarget "百思不得姐" */;
 			buildPhases = (
+				125D0317E2E2BB119FA953EE /* [CP] Check Pods Manifest.lock */,
 				A3F99A031E0E3C3B00AFA622 /* Sources */,
 				A3F99A041E0E3C3B00AFA622 /* Frameworks */,
 				A3F99A051E0E3C3B00AFA622 /* Resources */,
+				F0A53B89864F433B1670DEF2 /* [CP] Embed Pods Frameworks */,
+				83A04D58ED6C3634FCA6AF1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,7 +458,7 @@
 			);
 			name = "百思不得姐";
 			productName = "百思不得姐";
-			productReference = A3F99A071E0E3C3B00AFA622 /* 百思不得姐.app */;
+			productReference = A3F99A071E0E3C3B00AFA622 /* baisibudejie.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A3F99A1F1E0E3C3B00AFA622 /* 百思不得姐Tests */ = {
@@ -202,11 +503,13 @@
 		A3F999FF1E0E3C3B00AFA622 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HJ;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Mrhuang;
 				TargetAttributes = {
 					A3F99A061E0E3C3B00AFA622 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 376Y8JVFWK;
 					};
 					A3F99A1F1E0E3C3B00AFA622 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,9 +546,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3F99A1A1E0E3C3B00AFA622 /* LaunchScreen.storyboard in Resources */,
-				A3F99A171E0E3C3B00AFA622 /* Assets.xcassets in Resources */,
-				A3F99A151E0E3C3B00AFA622 /* Main.storyboard in Resources */,
+				A327AE261E1BDAD500E64D81 /* HJLoginRegisterViewController.xib in Resources */,
+				A3B5BCF51EC0909800D0DB6F /* HJMEWebView.xib in Resources */,
+				A327AE211E1BD0C600E64D81 /* HJFollowController.xib in Resources */,
+				A3F99A3E1E0F79A800AFA622 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +569,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		125D0317E2E2BB119FA953EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83A04D58ED6C3634FCA6AF1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A53B89864F433B1670DEF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3F99A031E0E3C3B00AFA622 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3F99A121E0E3C3B00AFA622 /* ViewController.m in Sources */,
-				A3F99A0F1E0E3C3B00AFA622 /* AppDelegate.m in Sources */,
-				A3F99A0C1E0E3C3B00AFA622 /* main.m in Sources */,
+				A327AE101E193E6500E64D81 /* HJFollowController.m in Sources */,
+				A327AE2C1E1F525600E64D81 /* HJLoginTextField.m in Sources */,
+				A327AE161E1A401300E64D81 /* UIBarButtonItem+HJBarButtonItem.m in Sources */,
+				A3371E0E1E28E4C40005DB5D /* HJExtrenMargin.m in Sources */,
+				A327AE041E193D1300E64D81 /* AppDelegate.m in Sources */,
+				A327AE051E193D1300E64D81 /* HJTabBarController.m in Sources */,
+				A327AE291E1CCD2700E64D81 /* HJLoginReButton.m in Sources */,
+				A327AE061E193D1300E64D81 /* main.m in Sources */,
+				A3B5BCED1EADA29000D0DB6F /* HJSquareModel.m in Sources */,
+				A327AE251E1BDAD500E64D81 /* HJLoginRegisterViewController.m in Sources */,
+				A327AE031E193D1300E64D81 /* UIView+HJCategory.m in Sources */,
+				A327AE0A1E193E2D00E64D81 /* HJEssenceController.m in Sources */,
+				A3B5BCF01EB9DCD500D0DB6F /* HJSquareButton.m in Sources */,
+				A327AE1C1E1A64D700E64D81 /* HJsettingViewController.m in Sources */,
+				A327AE131E193E7D00E64D81 /* HJMeController.m in Sources */,
+				A3B5BCEA1EAA012600D0DB6F /* HJMeFooterView.m in Sources */,
+				A3371E111E28E5C60005DB5D /* HJMeCell.m in Sources */,
+				A327AE1F1E1A662400E64D81 /* HJtestViewController.m in Sources */,
+				A327AE2F1E23B62700E64D81 /* UITextField+HJTextFieldCategory.m in Sources */,
+				A3B5BCF41EC0909800D0DB6F /* HJMEWebView.m in Sources */,
+				A327AE071E193D1300E64D81 /* HJTabBar.m in Sources */,
+				A327AE191E1A5C4000E64D81 /* HJNavigationController.m in Sources */,
+				A327AE0D1E193E4C00E64D81 /* HJNewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +678,6 @@
 			targetProxy = A3F99A2C1E0E3C3B00AFA622 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A3F99A131E0E3C3B00AFA622 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3F99A141E0E3C3B00AFA622 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A3F99A181E0E3C3B00AFA622 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3F99A191E0E3C3B00AFA622 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A3F99A321E0E3C3B00AFA622 /* Debug */ = {
@@ -413,23 +766,39 @@
 		};
 		A3F99A351E0E3C3B00AFA622 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D0FE17BD35FC78F18F5795 /* Pods-百思不得姐.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MrHuang.-----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = baisibudejie;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A3F99A361E0E3C3B00AFA622 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F246F02BAD1FE681A29156 /* Pods-百思不得姐.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MrHuang.-----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = baisibudejie;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +867,7 @@
 				A3F99A361E0E3C3B00AFA622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3F99A371E0E3C3B00AFA622 /* Build configuration list for PBXNativeTarget "百思不得姐Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +876,7 @@
 				A3F99A391E0E3C3B00AFA622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3F99A3A1E0E3C3B00AFA622 /* Build configuration list for PBXNativeTarget "百思不得姐UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +885,7 @@
 				A3F99A3C1E0E3C3B00AFA622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
