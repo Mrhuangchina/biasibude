@@ -33,6 +33,9 @@
 		A3B5BCF01EB9DCD500D0DB6F /* HJSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCEF1EB9DCD500D0DB6F /* HJSquareButton.m */; };
 		A3B5BCF41EC0909800D0DB6F /* HJMEWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCF21EC0909800D0DB6F /* HJMEWebView.m */; };
 		A3B5BCF51EC0909800D0DB6F /* HJMEWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3B5BCF31EC0909800D0DB6F /* HJMEWebView.xib */; };
+		A3B5BCF91EC9610400D0DB6F /* NSString+HJCachePathFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCF81EC9610400D0DB6F /* NSString+HJCachePathFile.m */; };
+		A3B5BCFC1ECBEC6900D0DB6F /* HJClearCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCFB1ECBEC6900D0DB6F /* HJClearCacheCell.m */; };
+		A3B5BCFF1ECD322E00D0DB6F /* HJSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCFE1ECD322E00D0DB6F /* HJSettingCell.m */; };
 		A3F99A251E0E3C3B00AFA622 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F99A241E0E3C3B00AFA622 /* _____Tests.m */; };
 		A3F99A301E0E3C3B00AFA622 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F99A2F1E0E3C3B00AFA622 /* _____UITests.m */; };
 		A3F99A3E1E0F79A800AFA622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F99A3D1E0F79A800AFA622 /* Assets.xcassets */; };
@@ -108,6 +111,12 @@
 		A3B5BCF11EC0909800D0DB6F /* HJMEWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMEWebView.h; sourceTree = "<group>"; };
 		A3B5BCF21EC0909800D0DB6F /* HJMEWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMEWebView.m; sourceTree = "<group>"; };
 		A3B5BCF31EC0909800D0DB6F /* HJMEWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJMEWebView.xib; sourceTree = "<group>"; };
+		A3B5BCF71EC9610400D0DB6F /* NSString+HJCachePathFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HJCachePathFile.h"; sourceTree = "<group>"; };
+		A3B5BCF81EC9610400D0DB6F /* NSString+HJCachePathFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HJCachePathFile.m"; sourceTree = "<group>"; };
+		A3B5BCFA1ECBEC6900D0DB6F /* HJClearCacheCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJClearCacheCell.h; sourceTree = "<group>"; };
+		A3B5BCFB1ECBEC6900D0DB6F /* HJClearCacheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJClearCacheCell.m; sourceTree = "<group>"; };
+		A3B5BCFD1ECD322E00D0DB6F /* HJSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSettingCell.h; sourceTree = "<group>"; };
+		A3B5BCFE1ECD322E00D0DB6F /* HJSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSettingCell.m; sourceTree = "<group>"; };
 		A3F99A071E0E3C3B00AFA622 /* baisibudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baisibudejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F99A1B1E0E3C3B00AFA622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3F99A201E0E3C3B00AFA622 /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +178,8 @@
 				A327AE151E1A401300E64D81 /* UIBarButtonItem+HJBarButtonItem.m */,
 				A327AE2D1E23B62700E64D81 /* UITextField+HJTextFieldCategory.h */,
 				A327AE2E1E23B62700E64D81 /* UITextField+HJTextFieldCategory.m */,
+				A3B5BCF71EC9610400D0DB6F /* NSString+HJCachePathFile.h */,
+				A3B5BCF81EC9610400D0DB6F /* NSString+HJCachePathFile.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -284,6 +295,10 @@
 				A3B5BCE91EAA012600D0DB6F /* HJMeFooterView.m */,
 				A3B5BCEE1EB9DCD500D0DB6F /* HJSquareButton.h */,
 				A3B5BCEF1EB9DCD500D0DB6F /* HJSquareButton.m */,
+				A3B5BCFA1ECBEC6900D0DB6F /* HJClearCacheCell.h */,
+				A3B5BCFB1ECBEC6900D0DB6F /* HJClearCacheCell.m */,
+				A3B5BCFD1ECD322E00D0DB6F /* HJSettingCell.h */,
+				A3B5BCFE1ECD322E00D0DB6F /* HJSettingCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -633,8 +648,10 @@
 				A3B5BCED1EADA29000D0DB6F /* HJSquareModel.m in Sources */,
 				A327AE251E1BDAD500E64D81 /* HJLoginRegisterViewController.m in Sources */,
 				A327AE031E193D1300E64D81 /* UIView+HJCategory.m in Sources */,
+				A3B5BCF91EC9610400D0DB6F /* NSString+HJCachePathFile.m in Sources */,
 				A327AE0A1E193E2D00E64D81 /* HJEssenceController.m in Sources */,
 				A3B5BCF01EB9DCD500D0DB6F /* HJSquareButton.m in Sources */,
+				A3B5BCFF1ECD322E00D0DB6F /* HJSettingCell.m in Sources */,
 				A327AE1C1E1A64D700E64D81 /* HJsettingViewController.m in Sources */,
 				A327AE131E193E7D00E64D81 /* HJMeController.m in Sources */,
 				A3B5BCEA1EAA012600D0DB6F /* HJMeFooterView.m in Sources */,
@@ -642,6 +659,7 @@
 				A327AE1F1E1A662400E64D81 /* HJtestViewController.m in Sources */,
 				A327AE2F1E23B62700E64D81 /* UITextField+HJTextFieldCategory.m in Sources */,
 				A3B5BCF41EC0909800D0DB6F /* HJMEWebView.m in Sources */,
+				A3B5BCFC1ECBEC6900D0DB6F /* HJClearCacheCell.m in Sources */,
 				A327AE071E193D1300E64D81 /* HJTabBar.m in Sources */,
 				A327AE191E1A5C4000E64D81 /* HJNavigationController.m in Sources */,
 				A327AE0D1E193E4C00E64D81 /* HJNewController.m in Sources */,
