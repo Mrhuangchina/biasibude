@@ -36,6 +36,12 @@
 		A3B5BCF91EC9610400D0DB6F /* NSString+HJCachePathFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCF81EC9610400D0DB6F /* NSString+HJCachePathFile.m */; };
 		A3B5BCFC1ECBEC6900D0DB6F /* HJClearCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCFB1ECBEC6900D0DB6F /* HJClearCacheCell.m */; };
 		A3B5BCFF1ECD322E00D0DB6F /* HJSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCFE1ECD322E00D0DB6F /* HJSettingCell.m */; };
+		A3B5BD4B1ECE8F6800D0DB6F /* HJTitleSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BD4A1ECE8F6800D0DB6F /* HJTitleSelectButton.m */; };
+		A3B5BD4E1ECF201100D0DB6F /* HJAllController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BD4D1ECF201100D0DB6F /* HJAllController.m */; };
+		A3B5BD511ECF20B000D0DB6F /* HJVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BD501ECF20B000D0DB6F /* HJVideoController.m */; };
+		A3B5BD541ECF20C800D0DB6F /* HJVoicesController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BD531ECF20C800D0DB6F /* HJVoicesController.m */; };
+		A3B5BD571ECF20DC00D0DB6F /* HJPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BD561ECF20DC00D0DB6F /* HJPictureController.m */; };
+		A3B5BD5A1ECF20EF00D0DB6F /* HJWordController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BD591ECF20EF00D0DB6F /* HJWordController.m */; };
 		A3F99A251E0E3C3B00AFA622 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F99A241E0E3C3B00AFA622 /* _____Tests.m */; };
 		A3F99A301E0E3C3B00AFA622 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F99A2F1E0E3C3B00AFA622 /* _____UITests.m */; };
 		A3F99A3E1E0F79A800AFA622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F99A3D1E0F79A800AFA622 /* Assets.xcassets */; };
@@ -117,6 +123,18 @@
 		A3B5BCFB1ECBEC6900D0DB6F /* HJClearCacheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJClearCacheCell.m; sourceTree = "<group>"; };
 		A3B5BCFD1ECD322E00D0DB6F /* HJSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSettingCell.h; sourceTree = "<group>"; };
 		A3B5BCFE1ECD322E00D0DB6F /* HJSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSettingCell.m; sourceTree = "<group>"; };
+		A3B5BD491ECE8F6800D0DB6F /* HJTitleSelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTitleSelectButton.h; sourceTree = "<group>"; };
+		A3B5BD4A1ECE8F6800D0DB6F /* HJTitleSelectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTitleSelectButton.m; sourceTree = "<group>"; };
+		A3B5BD4C1ECF201100D0DB6F /* HJAllController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJAllController.h; sourceTree = "<group>"; };
+		A3B5BD4D1ECF201100D0DB6F /* HJAllController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJAllController.m; sourceTree = "<group>"; };
+		A3B5BD4F1ECF20B000D0DB6F /* HJVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJVideoController.h; sourceTree = "<group>"; };
+		A3B5BD501ECF20B000D0DB6F /* HJVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJVideoController.m; sourceTree = "<group>"; };
+		A3B5BD521ECF20C800D0DB6F /* HJVoicesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJVoicesController.h; sourceTree = "<group>"; };
+		A3B5BD531ECF20C800D0DB6F /* HJVoicesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJVoicesController.m; sourceTree = "<group>"; };
+		A3B5BD551ECF20DC00D0DB6F /* HJPictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPictureController.h; sourceTree = "<group>"; };
+		A3B5BD561ECF20DC00D0DB6F /* HJPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJPictureController.m; sourceTree = "<group>"; };
+		A3B5BD581ECF20EF00D0DB6F /* HJWordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJWordController.h; sourceTree = "<group>"; };
+		A3B5BD591ECF20EF00D0DB6F /* HJWordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJWordController.m; sourceTree = "<group>"; };
 		A3F99A071E0E3C3B00AFA622 /* baisibudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baisibudejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F99A1B1E0E3C3B00AFA622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3F99A201E0E3C3B00AFA622 /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,8 +206,8 @@
 			isa = PBXGroup;
 			children = (
 				A327ADE91E193D1300E64D81 /* Controller */,
-				A327ADEA1E193D1300E64D81 /* Model */,
-				A327ADEB1E193D1300E64D81 /* View */,
+				A3B5BD431ECE8EF600D0DB6F /* Model */,
+				A3B5BD441ECE8EF600D0DB6F /* View */,
 			);
 			path = "Essence-精华";
 			sourceTree = "<group>";
@@ -199,30 +217,26 @@
 			children = (
 				A327AE081E193E2D00E64D81 /* HJEssenceController.h */,
 				A327AE091E193E2D00E64D81 /* HJEssenceController.m */,
+				A3B5BD4C1ECF201100D0DB6F /* HJAllController.h */,
+				A3B5BD4D1ECF201100D0DB6F /* HJAllController.m */,
+				A3B5BD4F1ECF20B000D0DB6F /* HJVideoController.h */,
+				A3B5BD501ECF20B000D0DB6F /* HJVideoController.m */,
+				A3B5BD521ECF20C800D0DB6F /* HJVoicesController.h */,
+				A3B5BD531ECF20C800D0DB6F /* HJVoicesController.m */,
+				A3B5BD551ECF20DC00D0DB6F /* HJPictureController.h */,
+				A3B5BD561ECF20DC00D0DB6F /* HJPictureController.m */,
+				A3B5BD581ECF20EF00D0DB6F /* HJWordController.h */,
+				A3B5BD591ECF20EF00D0DB6F /* HJWordController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		A327ADEA1E193D1300E64D81 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A327ADEB1E193D1300E64D81 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		A327ADEC1E193D1300E64D81 /* Follow-关注 */ = {
 			isa = PBXGroup;
 			children = (
 				A327ADED1E193D1300E64D81 /* Controller */,
-				A327ADEE1E193D1300E64D81 /* Model */,
-				A327ADEF1E193D1300E64D81 /* View */,
+				A3B5BD461ECE8F1300D0DB6F /* View */,
+				A3B5BD451ECE8F1300D0DB6F /* Model */,
 			);
 			path = "Follow-关注";
 			sourceTree = "<group>";
@@ -235,20 +249,6 @@
 				A327AE201E1BD0C600E64D81 /* HJFollowController.xib */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		A327ADEE1E193D1300E64D81 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A327ADEF1E193D1300E64D81 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		A327ADF01E193D1300E64D81 /* Me-我 */ = {
@@ -307,8 +307,8 @@
 			isa = PBXGroup;
 			children = (
 				A327ADF51E193D1300E64D81 /* Controller */,
-				A327ADF61E193D1300E64D81 /* Model */,
-				A327ADF71E193D1300E64D81 /* View */,
+				A3B5BD471ECE8F4300D0DB6F /* Model */,
+				A3B5BD481ECE8F4300D0DB6F /* View */,
 			);
 			path = "New-新帖";
 			sourceTree = "<group>";
@@ -320,20 +320,6 @@
 				A327AE0C1E193E4C00E64D81 /* HJNewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		A327ADF61E193D1300E64D81 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A327ADF71E193D1300E64D81 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		A327ADF81E193D1300E64D81 /* Other-其他 */ = {
@@ -374,6 +360,50 @@
 				A327AE281E1CCD2700E64D81 /* HJLoginReButton.m */,
 				A327AE2A1E1F525600E64D81 /* HJLoginTextField.h */,
 				A327AE2B1E1F525600E64D81 /* HJLoginTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3B5BD431ECE8EF600D0DB6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A3B5BD441ECE8EF600D0DB6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3B5BD491ECE8F6800D0DB6F /* HJTitleSelectButton.h */,
+				A3B5BD4A1ECE8F6800D0DB6F /* HJTitleSelectButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3B5BD451ECE8F1300D0DB6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A3B5BD461ECE8F1300D0DB6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3B5BD471ECE8F4300D0DB6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A3B5BD481ECE8F4300D0DB6F /* View */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -637,12 +667,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3B5BD541ECF20C800D0DB6F /* HJVoicesController.m in Sources */,
 				A327AE101E193E6500E64D81 /* HJFollowController.m in Sources */,
 				A327AE2C1E1F525600E64D81 /* HJLoginTextField.m in Sources */,
 				A327AE161E1A401300E64D81 /* UIBarButtonItem+HJBarButtonItem.m in Sources */,
+				A3B5BD511ECF20B000D0DB6F /* HJVideoController.m in Sources */,
 				A3371E0E1E28E4C40005DB5D /* HJExtrenMargin.m in Sources */,
 				A327AE041E193D1300E64D81 /* AppDelegate.m in Sources */,
+				A3B5BD4B1ECE8F6800D0DB6F /* HJTitleSelectButton.m in Sources */,
 				A327AE051E193D1300E64D81 /* HJTabBarController.m in Sources */,
+				A3B5BD571ECF20DC00D0DB6F /* HJPictureController.m in Sources */,
 				A327AE291E1CCD2700E64D81 /* HJLoginReButton.m in Sources */,
 				A327AE061E193D1300E64D81 /* main.m in Sources */,
 				A3B5BCED1EADA29000D0DB6F /* HJSquareModel.m in Sources */,
@@ -659,10 +693,12 @@
 				A327AE1F1E1A662400E64D81 /* HJtestViewController.m in Sources */,
 				A327AE2F1E23B62700E64D81 /* UITextField+HJTextFieldCategory.m in Sources */,
 				A3B5BCF41EC0909800D0DB6F /* HJMEWebView.m in Sources */,
+				A3B5BD4E1ECF201100D0DB6F /* HJAllController.m in Sources */,
 				A3B5BCFC1ECBEC6900D0DB6F /* HJClearCacheCell.m in Sources */,
 				A327AE071E193D1300E64D81 /* HJTabBar.m in Sources */,
 				A327AE191E1A5C4000E64D81 /* HJNavigationController.m in Sources */,
 				A327AE0D1E193E4C00E64D81 /* HJNewController.m in Sources */,
+				A3B5BD5A1ECF20EF00D0DB6F /* HJWordController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
