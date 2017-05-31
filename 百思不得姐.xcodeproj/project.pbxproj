@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31CF8A61EDEE8DF00CB41F0 /* HJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A31CF8A51EDEE8DF00CB41F0 /* HJRefresh.m */; };
 		A327AE031E193D1300E64D81 /* UIView+HJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A327ADE71E193D1300E64D81 /* UIView+HJCategory.m */; };
 		A327AE041E193D1300E64D81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A327ADFA1E193D1300E64D81 /* AppDelegate.m */; };
 		A327AE051E193D1300E64D81 /* HJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327ADFD1E193D1300E64D81 /* HJTabBarController.m */; };
@@ -28,6 +29,7 @@
 		A327AE2F1E23B62700E64D81 /* UITextField+HJTextFieldCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A327AE2E1E23B62700E64D81 /* UITextField+HJTextFieldCategory.m */; };
 		A3371E0E1E28E4C40005DB5D /* HJExtrenMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = A3371E0D1E28E4C40005DB5D /* HJExtrenMargin.m */; };
 		A3371E111E28E5C60005DB5D /* HJMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3371E101E28E5C60005DB5D /* HJMeCell.m */; };
+		A33B69B21ED405A5005ECB08 /* HJTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A33B69B11ED405A5005ECB08 /* HJTopicModel.m */; };
 		A3B5BCEA1EAA012600D0DB6F /* HJMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCE91EAA012600D0DB6F /* HJMeFooterView.m */; };
 		A3B5BCED1EADA29000D0DB6F /* HJSquareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCEC1EADA29000D0DB6F /* HJSquareModel.m */; };
 		A3B5BCF01EB9DCD500D0DB6F /* HJSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCEF1EB9DCD500D0DB6F /* HJSquareButton.m */; };
@@ -68,6 +70,8 @@
 /* Begin PBXFileReference section */
 		39D0FE17BD35FC78F18F5795 /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
 		A2F246F02BAD1FE681A29156 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
+		A31CF8A41EDEE8DF00CB41F0 /* HJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJRefresh.h; sourceTree = "<group>"; };
+		A31CF8A51EDEE8DF00CB41F0 /* HJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJRefresh.m; sourceTree = "<group>"; };
 		A327ADE61E193D1300E64D81 /* UIView+HJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HJCategory.h"; sourceTree = "<group>"; };
 		A327ADE71E193D1300E64D81 /* UIView+HJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HJCategory.m"; sourceTree = "<group>"; };
 		A327ADF91E193D1300E64D81 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 		A3371E0D1E28E4C40005DB5D /* HJExtrenMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJExtrenMargin.m; sourceTree = "<group>"; };
 		A3371E0F1E28E5C60005DB5D /* HJMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMeCell.h; sourceTree = "<group>"; };
 		A3371E101E28E5C60005DB5D /* HJMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMeCell.m; sourceTree = "<group>"; };
+		A33B69B01ED405A5005ECB08 /* HJTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTopicModel.h; sourceTree = "<group>"; };
+		A33B69B11ED405A5005ECB08 /* HJTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTopicModel.m; sourceTree = "<group>"; };
 		A3B5BCE81EAA012600D0DB6F /* HJMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMeFooterView.h; sourceTree = "<group>"; };
 		A3B5BCE91EAA012600D0DB6F /* HJMeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMeFooterView.m; sourceTree = "<group>"; };
 		A3B5BCEB1EADA29000D0DB6F /* HJSquareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSquareModel.h; sourceTree = "<group>"; };
@@ -333,6 +339,8 @@
 				A327ADFF1E193D1300E64D81 /* PrefixHeader.pch */,
 				A3371E0C1E28E4C40005DB5D /* HJExtrenMargin.h */,
 				A3371E0D1E28E4C40005DB5D /* HJExtrenMargin.m */,
+				A31CF8A41EDEE8DF00CB41F0 /* HJRefresh.h */,
+				A31CF8A51EDEE8DF00CB41F0 /* HJRefresh.m */,
 			);
 			path = "Other-其他";
 			sourceTree = "<group>";
@@ -367,6 +375,8 @@
 		A3B5BD431ECE8EF600D0DB6F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A33B69B01ED405A5005ECB08 /* HJTopicModel.h */,
+				A33B69B11ED405A5005ECB08 /* HJTopicModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -668,9 +678,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3B5BD541ECF20C800D0DB6F /* HJVoicesController.m in Sources */,
+				A33B69B21ED405A5005ECB08 /* HJTopicModel.m in Sources */,
 				A327AE101E193E6500E64D81 /* HJFollowController.m in Sources */,
 				A327AE2C1E1F525600E64D81 /* HJLoginTextField.m in Sources */,
 				A327AE161E1A401300E64D81 /* UIBarButtonItem+HJBarButtonItem.m in Sources */,
+				A31CF8A61EDEE8DF00CB41F0 /* HJRefresh.m in Sources */,
 				A3B5BD511ECF20B000D0DB6F /* HJVideoController.m in Sources */,
 				A3371E0E1E28E4C40005DB5D /* HJExtrenMargin.m in Sources */,
 				A327AE041E193D1300E64D81 /* AppDelegate.m in Sources */,
