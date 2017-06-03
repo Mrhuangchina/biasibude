@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A319BE5C1EE1230700E7673E /* HJFooterRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A319BE5B1EE1230700E7673E /* HJFooterRefresh.m */; };
+		A319BE5F1EE26DCC00E7673E /* HJSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A319BE5E1EE26DCC00E7673E /* HJSessionManager.m */; };
 		A31CF8A61EDEE8DF00CB41F0 /* HJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A31CF8A51EDEE8DF00CB41F0 /* HJRefresh.m */; };
 		A327AE031E193D1300E64D81 /* UIView+HJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A327ADE71E193D1300E64D81 /* UIView+HJCategory.m */; };
 		A327AE041E193D1300E64D81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A327ADFA1E193D1300E64D81 /* AppDelegate.m */; };
@@ -70,6 +72,11 @@
 /* Begin PBXFileReference section */
 		39D0FE17BD35FC78F18F5795 /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
 		A2F246F02BAD1FE681A29156 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
+		A319BE5A1EE1230700E7673E /* HJFooterRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJFooterRefresh.h; sourceTree = "<group>"; };
+		A319BE5B1EE1230700E7673E /* HJFooterRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJFooterRefresh.m; sourceTree = "<group>"; };
+		A319BE5D1EE26DCC00E7673E /* HJSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSessionManager.h; sourceTree = "<group>"; };
+		A319BE5E1EE26DCC00E7673E /* HJSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSessionManager.m; sourceTree = "<group>"; };
+		A319BE621EE2779000E7673E /* baisi.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baisi.pch; sourceTree = "<group>"; };
 		A31CF8A41EDEE8DF00CB41F0 /* HJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJRefresh.h; sourceTree = "<group>"; };
 		A31CF8A51EDEE8DF00CB41F0 /* HJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJRefresh.m; sourceTree = "<group>"; };
 		A327ADE61E193D1300E64D81 /* UIView+HJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HJCategory.h"; sourceTree = "<group>"; };
@@ -337,10 +344,15 @@
 				A327ADFA1E193D1300E64D81 /* AppDelegate.m */,
 				A327ADFE1E193D1300E64D81 /* main.m */,
 				A327ADFF1E193D1300E64D81 /* PrefixHeader.pch */,
+				A319BE621EE2779000E7673E /* baisi.pch */,
 				A3371E0C1E28E4C40005DB5D /* HJExtrenMargin.h */,
 				A3371E0D1E28E4C40005DB5D /* HJExtrenMargin.m */,
 				A31CF8A41EDEE8DF00CB41F0 /* HJRefresh.h */,
 				A31CF8A51EDEE8DF00CB41F0 /* HJRefresh.m */,
+				A319BE5A1EE1230700E7673E /* HJFooterRefresh.h */,
+				A319BE5B1EE1230700E7673E /* HJFooterRefresh.m */,
+				A319BE5D1EE26DCC00E7673E /* HJSessionManager.h */,
+				A319BE5E1EE26DCC00E7673E /* HJSessionManager.m */,
 			);
 			path = "Other-其他";
 			sourceTree = "<group>";
@@ -692,6 +704,7 @@
 				A327AE291E1CCD2700E64D81 /* HJLoginReButton.m in Sources */,
 				A327AE061E193D1300E64D81 /* main.m in Sources */,
 				A3B5BCED1EADA29000D0DB6F /* HJSquareModel.m in Sources */,
+				A319BE5C1EE1230700E7673E /* HJFooterRefresh.m in Sources */,
 				A327AE251E1BDAD500E64D81 /* HJLoginRegisterViewController.m in Sources */,
 				A327AE031E193D1300E64D81 /* UIView+HJCategory.m in Sources */,
 				A3B5BCF91EC9610400D0DB6F /* NSString+HJCachePathFile.m in Sources */,
@@ -710,6 +723,7 @@
 				A327AE071E193D1300E64D81 /* HJTabBar.m in Sources */,
 				A327AE191E1A5C4000E64D81 /* HJNavigationController.m in Sources */,
 				A327AE0D1E193E4C00E64D81 /* HJNewController.m in Sources */,
+				A319BE5F1EE26DCC00E7673E /* HJSessionManager.m in Sources */,
 				A3B5BD5A1ECF20EF00D0DB6F /* HJWordController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -838,7 +852,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other-其他/PrefixHeader.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百思不得姐/Classes/Other-其他/baisi.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -857,7 +872,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other-其他/PrefixHeader.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百思不得姐/Classes/Other-其他/baisi.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
