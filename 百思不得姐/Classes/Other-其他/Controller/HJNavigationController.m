@@ -19,8 +19,8 @@
    //当左上角返回的按钮更改的时候收拾拖拽返回失效 所以要使用手势的代理来重新实现手势的返回效果
     self.interactivePopGestureRecognizer.delegate = self;
     
-    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"]
-                             forBarMetrics:UIBarMetricsDefault];
+//    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"]
+//                             forBarMetrics:UIBarMetricsDefault];
 }
 
     /*

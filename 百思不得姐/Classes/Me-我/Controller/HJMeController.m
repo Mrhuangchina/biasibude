@@ -50,7 +50,7 @@
     
     [self.navigationController pushViewController:setting animated:YES];
     
-    HJLogFUNC
+   
 }
 
 -(void)moonButtonAction{

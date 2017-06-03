@@ -45,7 +45,7 @@
 -(instancetype)initWithFrame:(CGRect)frame{
     
     if (self = [super initWithFrame:frame]) {
-        self.backgroundImage = [UIImage imageNamed:@"tabbar-light"];
+//        self.backgroundImage = [UIImage imageNamed:@"tabbar-light"];
     }
     
     return self;

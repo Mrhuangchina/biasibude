@@ -15,6 +15,10 @@
 #import "UIBarButtonItem+HJBarButtonItem.h"
 #import "UITextField+HJTextFieldCategory.h"
 #import "HJExtrenMargin.h"
+#import "NSString+HJCachePathFile.h"
+
+
+
 
 /**日志**/
 
@@ -25,6 +29,11 @@
 #endif
 
 #define HJLogFUNC HJLog(@"%s",__func__);
+
+
+/***将服务器返回的数据写入plist文件****/
+
+#define HJWriteToPlist(data,fileName)[data writeToFile:[NSString stringWithFormat:@"/Users/Mrhuang/Desktop/%@.plist",fileName] atomically:YES];
 
 /**颜色**/
 

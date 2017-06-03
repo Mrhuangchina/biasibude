@@ -7,12 +7,13 @@
 //
 
 #import "HJMeFooterView.h"
-#import <AFNetworking.h>
+#import "HJSessionManager.h"
 #import "HJSquareModel.h"
 #import <MJExtension.h>
 #import "HJSquareButton.h"
 #import "HJMEWebView.h"
 #import <SafariServices/SafariServices.h>
+#import "HJExtrenMargin.h"
 
 @interface HJMeFooterView()
 
@@ -27,8 +28,8 @@
         params[@"a"] = @"square";
         params[@"c"] = @"topic";
         
-        AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-        [manager GET:@"http://api.budejie.com/api/api_open.php" parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSDictionary *  _Nullable responseObject) {
+        HJSessionManager *manager = [HJSessionManager manager];
+        [manager GET:CommonURL parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSDictionary *  _Nullable responseObject) {
 //            [responseObject writeToFile:@"/Users/Mrhuang/Desktop/me1.plist" atomically:YES];
             NSArray *modelArray = [HJSquareModel mj_objectArrayWithKeyValuesArray:responseObject[@"square_list"]];
             
