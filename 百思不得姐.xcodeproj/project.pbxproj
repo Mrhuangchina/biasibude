@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A319BE5C1EE1230700E7673E /* HJFooterRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A319BE5B1EE1230700E7673E /* HJFooterRefresh.m */; };
 		A319BE5F1EE26DCC00E7673E /* HJSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A319BE5E1EE26DCC00E7673E /* HJSessionManager.m */; };
+		A319BE661EE3AD2200E7673E /* HJTopiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A319BE641EE3AD2200E7673E /* HJTopiceCell.m */; };
+		A319BE671EE3AD2200E7673E /* HJTopiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A319BE651EE3AD2200E7673E /* HJTopiceCell.xib */; };
 		A31CF8A61EDEE8DF00CB41F0 /* HJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A31CF8A51EDEE8DF00CB41F0 /* HJRefresh.m */; };
 		A327AE031E193D1300E64D81 /* UIView+HJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A327ADE71E193D1300E64D81 /* UIView+HJCategory.m */; };
 		A327AE041E193D1300E64D81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A327ADFA1E193D1300E64D81 /* AppDelegate.m */; };
@@ -77,6 +79,9 @@
 		A319BE5D1EE26DCC00E7673E /* HJSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSessionManager.h; sourceTree = "<group>"; };
 		A319BE5E1EE26DCC00E7673E /* HJSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSessionManager.m; sourceTree = "<group>"; };
 		A319BE621EE2779000E7673E /* baisi.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baisi.pch; sourceTree = "<group>"; };
+		A319BE631EE3AD2200E7673E /* HJTopiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTopiceCell.h; sourceTree = "<group>"; };
+		A319BE641EE3AD2200E7673E /* HJTopiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTopiceCell.m; sourceTree = "<group>"; };
+		A319BE651EE3AD2200E7673E /* HJTopiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJTopiceCell.xib; sourceTree = "<group>"; };
 		A31CF8A41EDEE8DF00CB41F0 /* HJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJRefresh.h; sourceTree = "<group>"; };
 		A31CF8A51EDEE8DF00CB41F0 /* HJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJRefresh.m; sourceTree = "<group>"; };
 		A327ADE61E193D1300E64D81 /* UIView+HJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HJCategory.h"; sourceTree = "<group>"; };
@@ -398,6 +403,9 @@
 			children = (
 				A3B5BD491ECE8F6800D0DB6F /* HJTitleSelectButton.h */,
 				A3B5BD4A1ECE8F6800D0DB6F /* HJTitleSelectButton.m */,
+				A319BE631EE3AD2200E7673E /* HJTopiceCell.h */,
+				A319BE641EE3AD2200E7673E /* HJTopiceCell.m */,
+				A319BE651EE3AD2200E7673E /* HJTopiceCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -616,6 +624,7 @@
 				A327AE261E1BDAD500E64D81 /* HJLoginRegisterViewController.xib in Resources */,
 				A3B5BCF51EC0909800D0DB6F /* HJMEWebView.xib in Resources */,
 				A327AE211E1BD0C600E64D81 /* HJFollowController.xib in Resources */,
+				A319BE671EE3AD2200E7673E /* HJTopiceCell.xib in Resources */,
 				A3F99A3E1E0F79A800AFA622 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -694,6 +703,7 @@
 				A327AE101E193E6500E64D81 /* HJFollowController.m in Sources */,
 				A327AE2C1E1F525600E64D81 /* HJLoginTextField.m in Sources */,
 				A327AE161E1A401300E64D81 /* UIBarButtonItem+HJBarButtonItem.m in Sources */,
+				A319BE661EE3AD2200E7673E /* HJTopiceCell.m in Sources */,
 				A31CF8A61EDEE8DF00CB41F0 /* HJRefresh.m in Sources */,
 				A3B5BD511ECF20B000D0DB6F /* HJVideoController.m in Sources */,
 				A3371E0E1E28E4C40005DB5D /* HJExtrenMargin.m in Sources */,
