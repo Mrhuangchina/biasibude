@@ -39,6 +39,7 @@
 		A3371E0E1E28E4C40005DB5D /* HJExtrenMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = A3371E0D1E28E4C40005DB5D /* HJExtrenMargin.m */; };
 		A3371E111E28E5C60005DB5D /* HJMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3371E101E28E5C60005DB5D /* HJMeCell.m */; };
 		A33B69B21ED405A5005ECB08 /* HJTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A33B69B11ED405A5005ECB08 /* HJTopicModel.m */; };
+		A388A6331EF28A98006783CA /* HJTopicController.m in Sources */ = {isa = PBXBuildFile; fileRef = A388A6321EF28A98006783CA /* HJTopicController.m */; };
 		A3B5BCEA1EAA012600D0DB6F /* HJMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCE91EAA012600D0DB6F /* HJMeFooterView.m */; };
 		A3B5BCED1EADA29000D0DB6F /* HJSquareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCEC1EADA29000D0DB6F /* HJSquareModel.m */; };
 		A3B5BCF01EB9DCD500D0DB6F /* HJSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCEF1EB9DCD500D0DB6F /* HJSquareButton.m */; };
@@ -53,6 +54,12 @@
 		A3B5BD541ECF20C800D0DB6F /* HJVoicesController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BD531ECF20C800D0DB6F /* HJVoicesController.m */; };
 		A3B5BD571ECF20DC00D0DB6F /* HJPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BD561ECF20DC00D0DB6F /* HJPictureController.m */; };
 		A3B5BD5A1ECF20EF00D0DB6F /* HJWordController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BD591ECF20EF00D0DB6F /* HJWordController.m */; };
+		A3C054751EF05C17004D6DE4 /* HJTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C054741EF05C17004D6DE4 /* HJTopicPictureView.m */; };
+		A3C054771EF05C60004D6DE4 /* HJTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C054761EF05C60004D6DE4 /* HJTopicPictureView.xib */; };
+		A3C0547A1EF05CBE004D6DE4 /* HJTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C054791EF05CBE004D6DE4 /* HJTopicVideoView.m */; };
+		A3C0547C1EF05CD4004D6DE4 /* HJTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C0547B1EF05CD3004D6DE4 /* HJTopicVideoView.xib */; };
+		A3C0547F1EF05D01004D6DE4 /* HJTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C0547E1EF05D01004D6DE4 /* HJTopicVoiceView.m */; };
+		A3C054811EF05D2C004D6DE4 /* HJTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C054801EF05D2C004D6DE4 /* HJTopicVoiceView.xib */; };
 		A3F99A251E0E3C3B00AFA622 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F99A241E0E3C3B00AFA622 /* _____Tests.m */; };
 		A3F99A301E0E3C3B00AFA622 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F99A2F1E0E3C3B00AFA622 /* _____UITests.m */; };
 		A3F99A3E1E0F79A800AFA622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F99A3D1E0F79A800AFA622 /* Assets.xcassets */; };
@@ -141,6 +148,8 @@
 		A3371E101E28E5C60005DB5D /* HJMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMeCell.m; sourceTree = "<group>"; };
 		A33B69B01ED405A5005ECB08 /* HJTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTopicModel.h; sourceTree = "<group>"; };
 		A33B69B11ED405A5005ECB08 /* HJTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTopicModel.m; sourceTree = "<group>"; };
+		A388A6311EF28A98006783CA /* HJTopicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTopicController.h; sourceTree = "<group>"; };
+		A388A6321EF28A98006783CA /* HJTopicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTopicController.m; sourceTree = "<group>"; };
 		A3B5BCE81EAA012600D0DB6F /* HJMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMeFooterView.h; sourceTree = "<group>"; };
 		A3B5BCE91EAA012600D0DB6F /* HJMeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMeFooterView.m; sourceTree = "<group>"; };
 		A3B5BCEB1EADA29000D0DB6F /* HJSquareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSquareModel.h; sourceTree = "<group>"; };
@@ -168,6 +177,15 @@
 		A3B5BD561ECF20DC00D0DB6F /* HJPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJPictureController.m; sourceTree = "<group>"; };
 		A3B5BD581ECF20EF00D0DB6F /* HJWordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJWordController.h; sourceTree = "<group>"; };
 		A3B5BD591ECF20EF00D0DB6F /* HJWordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJWordController.m; sourceTree = "<group>"; };
+		A3C054731EF05C17004D6DE4 /* HJTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTopicPictureView.h; sourceTree = "<group>"; };
+		A3C054741EF05C17004D6DE4 /* HJTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTopicPictureView.m; sourceTree = "<group>"; };
+		A3C054761EF05C60004D6DE4 /* HJTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJTopicPictureView.xib; sourceTree = "<group>"; };
+		A3C054781EF05CBE004D6DE4 /* HJTopicVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTopicVideoView.h; sourceTree = "<group>"; };
+		A3C054791EF05CBE004D6DE4 /* HJTopicVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTopicVideoView.m; sourceTree = "<group>"; };
+		A3C0547B1EF05CD3004D6DE4 /* HJTopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJTopicVideoView.xib; sourceTree = "<group>"; };
+		A3C0547D1EF05D01004D6DE4 /* HJTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTopicVoiceView.h; sourceTree = "<group>"; };
+		A3C0547E1EF05D01004D6DE4 /* HJTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTopicVoiceView.m; sourceTree = "<group>"; };
+		A3C054801EF05D2C004D6DE4 /* HJTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJTopicVoiceView.xib; sourceTree = "<group>"; };
 		A3F99A071E0E3C3B00AFA622 /* baisibudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baisibudejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F99A1B1E0E3C3B00AFA622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3F99A201E0E3C3B00AFA622 /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -254,6 +272,8 @@
 			children = (
 				A327AE081E193E2D00E64D81 /* HJEssenceController.h */,
 				A327AE091E193E2D00E64D81 /* HJEssenceController.m */,
+				A388A6311EF28A98006783CA /* HJTopicController.h */,
+				A388A6321EF28A98006783CA /* HJTopicController.m */,
 				A3B5BD4C1ECF201100D0DB6F /* HJAllController.h */,
 				A3B5BD4D1ECF201100D0DB6F /* HJAllController.m */,
 				A3B5BD4F1ECF20B000D0DB6F /* HJVideoController.h */,
@@ -431,6 +451,15 @@
 				A319BE631EE3AD2200E7673E /* HJTopiceCell.h */,
 				A319BE641EE3AD2200E7673E /* HJTopiceCell.m */,
 				A319BE651EE3AD2200E7673E /* HJTopiceCell.xib */,
+				A3C054731EF05C17004D6DE4 /* HJTopicPictureView.h */,
+				A3C054741EF05C17004D6DE4 /* HJTopicPictureView.m */,
+				A3C054761EF05C60004D6DE4 /* HJTopicPictureView.xib */,
+				A3C054781EF05CBE004D6DE4 /* HJTopicVideoView.h */,
+				A3C054791EF05CBE004D6DE4 /* HJTopicVideoView.m */,
+				A3C0547B1EF05CD3004D6DE4 /* HJTopicVideoView.xib */,
+				A3C0547D1EF05D01004D6DE4 /* HJTopicVoiceView.h */,
+				A3C0547E1EF05D01004D6DE4 /* HJTopicVoiceView.m */,
+				A3C054801EF05D2C004D6DE4 /* HJTopicVoiceView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -647,10 +676,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A327AE261E1BDAD500E64D81 /* HJLoginRegisterViewController.xib in Resources */,
+				A3C0547C1EF05CD4004D6DE4 /* HJTopicVideoView.xib in Resources */,
+				A3C054771EF05C60004D6DE4 /* HJTopicPictureView.xib in Resources */,
 				A3B5BCF51EC0909800D0DB6F /* HJMEWebView.xib in Resources */,
 				A327AE211E1BD0C600E64D81 /* HJFollowController.xib in Resources */,
 				A319BE671EE3AD2200E7673E /* HJTopiceCell.xib in Resources */,
 				A3F99A3E1E0F79A800AFA622 /* Assets.xcassets in Resources */,
+				A3C054811EF05D2C004D6DE4 /* HJTopicVoiceView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,8 +776,10 @@
 				A3B5BCED1EADA29000D0DB6F /* HJSquareModel.m in Sources */,
 				A319BE5C1EE1230700E7673E /* HJFooterRefresh.m in Sources */,
 				A327AE251E1BDAD500E64D81 /* HJLoginRegisterViewController.m in Sources */,
+				A388A6331EF28A98006783CA /* HJTopicController.m in Sources */,
 				A327AE031E193D1300E64D81 /* UIView+HJCategory.m in Sources */,
 				A3B5BCF91EC9610400D0DB6F /* NSString+HJCachePathFile.m in Sources */,
+				A3C054751EF05C17004D6DE4 /* HJTopicPictureView.m in Sources */,
 				A327AE0A1E193E2D00E64D81 /* HJEssenceController.m in Sources */,
 				A3B5BCF01EB9DCD500D0DB6F /* HJSquareButton.m in Sources */,
 				A3B5BCFF1ECD322E00D0DB6F /* HJSettingCell.m in Sources */,
@@ -762,6 +796,8 @@
 				A327AE071E193D1300E64D81 /* HJTabBar.m in Sources */,
 				A327AE191E1A5C4000E64D81 /* HJNavigationController.m in Sources */,
 				A327AE0D1E193E4C00E64D81 /* HJNewController.m in Sources */,
+				A3C0547F1EF05D01004D6DE4 /* HJTopicVoiceView.m in Sources */,
+				A3C0547A1EF05CBE004D6DE4 /* HJTopicVideoView.m in Sources */,
 				A319BE5F1EE26DCC00E7673E /* HJSessionManager.m in Sources */,
 				A31C59921EEBD48700B477D6 /* NSCalendar+HJCategory.m in Sources */,
 				A3B5BD5A1ECF20EF00D0DB6F /* HJWordController.m in Sources */,

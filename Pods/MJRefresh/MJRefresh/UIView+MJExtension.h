@@ -16,4 +16,8 @@
 @property (assign, nonatomic) CGFloat mj_h;
 @property (assign, nonatomic) CGSize mj_size;
 @property (assign, nonatomic) CGPoint mj_origin;
+
+
+
+
 @end
