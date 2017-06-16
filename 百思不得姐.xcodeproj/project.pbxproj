@@ -40,6 +40,8 @@
 		A3371E111E28E5C60005DB5D /* HJMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3371E101E28E5C60005DB5D /* HJMeCell.m */; };
 		A33B69B21ED405A5005ECB08 /* HJTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A33B69B11ED405A5005ECB08 /* HJTopicModel.m */; };
 		A388A6331EF28A98006783CA /* HJTopicController.m in Sources */ = {isa = PBXBuildFile; fileRef = A388A6321EF28A98006783CA /* HJTopicController.m */; };
+		A388A6371EF3D5B3006783CA /* HJSeeBigPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = A388A6351EF3D5B3006783CA /* HJSeeBigPictureController.m */; };
+		A388A6381EF3D5B3006783CA /* HJSeeBigPictureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A388A6361EF3D5B3006783CA /* HJSeeBigPictureController.xib */; };
 		A3B5BCEA1EAA012600D0DB6F /* HJMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCE91EAA012600D0DB6F /* HJMeFooterView.m */; };
 		A3B5BCED1EADA29000D0DB6F /* HJSquareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCEC1EADA29000D0DB6F /* HJSquareModel.m */; };
 		A3B5BCF01EB9DCD500D0DB6F /* HJSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BCEF1EB9DCD500D0DB6F /* HJSquareButton.m */; };
@@ -150,6 +152,9 @@
 		A33B69B11ED405A5005ECB08 /* HJTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTopicModel.m; sourceTree = "<group>"; };
 		A388A6311EF28A98006783CA /* HJTopicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTopicController.h; sourceTree = "<group>"; };
 		A388A6321EF28A98006783CA /* HJTopicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTopicController.m; sourceTree = "<group>"; };
+		A388A6341EF3D5B3006783CA /* HJSeeBigPictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSeeBigPictureController.h; sourceTree = "<group>"; };
+		A388A6351EF3D5B3006783CA /* HJSeeBigPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSeeBigPictureController.m; sourceTree = "<group>"; };
+		A388A6361EF3D5B3006783CA /* HJSeeBigPictureController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJSeeBigPictureController.xib; sourceTree = "<group>"; };
 		A3B5BCE81EAA012600D0DB6F /* HJMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMeFooterView.h; sourceTree = "<group>"; };
 		A3B5BCE91EAA012600D0DB6F /* HJMeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMeFooterView.m; sourceTree = "<group>"; };
 		A3B5BCEB1EADA29000D0DB6F /* HJSquareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSquareModel.h; sourceTree = "<group>"; };
@@ -284,6 +289,9 @@
 				A3B5BD561ECF20DC00D0DB6F /* HJPictureController.m */,
 				A3B5BD581ECF20EF00D0DB6F /* HJWordController.h */,
 				A3B5BD591ECF20EF00D0DB6F /* HJWordController.m */,
+				A388A6341EF3D5B3006783CA /* HJSeeBigPictureController.h */,
+				A388A6351EF3D5B3006783CA /* HJSeeBigPictureController.m */,
+				A388A6361EF3D5B3006783CA /* HJSeeBigPictureController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -676,6 +684,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A327AE261E1BDAD500E64D81 /* HJLoginRegisterViewController.xib in Resources */,
+				A388A6381EF3D5B3006783CA /* HJSeeBigPictureController.xib in Resources */,
 				A3C0547C1EF05CD4004D6DE4 /* HJTopicVideoView.xib in Resources */,
 				A3C054771EF05C60004D6DE4 /* HJTopicPictureView.xib in Resources */,
 				A3B5BCF51EC0909800D0DB6F /* HJMEWebView.xib in Resources */,
@@ -774,6 +783,7 @@
 				A327AE291E1CCD2700E64D81 /* HJLoginReButton.m in Sources */,
 				A327AE061E193D1300E64D81 /* main.m in Sources */,
 				A3B5BCED1EADA29000D0DB6F /* HJSquareModel.m in Sources */,
+				A388A6371EF3D5B3006783CA /* HJSeeBigPictureController.m in Sources */,
 				A319BE5C1EE1230700E7673E /* HJFooterRefresh.m in Sources */,
 				A327AE251E1BDAD500E64D81 /* HJLoginRegisterViewController.m in Sources */,
 				A388A6331EF28A98006783CA /* HJTopicController.m in Sources */,
